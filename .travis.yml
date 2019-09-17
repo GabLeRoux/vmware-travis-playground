@@ -3,4 +3,4 @@ dist: bionic
 
 script:
   - lsb_release -a
-  - ./run.sh
+  - chmod +x ./run.sh && ./run.sh
