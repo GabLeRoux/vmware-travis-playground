@@ -4,7 +4,7 @@ set -ex
 
 sudo apt-get update && sudo apt-get upgrade -y
 
-wget curl -O -L -C - https://www.vmware.com/go/getWorkstation-linux -o ~/getWorkstation-linux
+curl -O -L -C - https://www.vmware.com/go/getWorkstation-linux -o ~/getWorkstation-linux
 chmod +x ~/getWorkstation-linux
 ~/getWorkstation-linux -d
 
