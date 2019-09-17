@@ -1,0 +1,6 @@
+os: linux
+dist: bionic
+
+script:
+  - lsb_release -a
+  - run.sh
